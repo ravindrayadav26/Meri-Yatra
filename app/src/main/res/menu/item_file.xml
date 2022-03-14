@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:id="@+id/example1"
+            android:title="@string/example_1"
+            android:icon="@drawable/ic_baseline_add_24"/>
+        <item android:id="@+id/example2"
+            android:title="@string/example_2"
+            android:icon="@drawable/ic_baseline_add_box_24"/>
+    </group>
+    <item android:title="@string/communication">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/share"/>
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                android:title="@string/rate"/>
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/ic_baseline_privacy_tip_24"
+                android:title="@string/privacy"/>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="@string/exit"/>
+        </menu>
+    </item>
+</menu>

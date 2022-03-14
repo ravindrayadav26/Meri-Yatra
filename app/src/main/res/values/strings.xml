@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Meri Yatra</string>
+    <string name="home">Home</string>
+    <string name="example_1">Example 1</string>
+    <string name="example_2">Example 2</string>
+    <string name="communication">Communication</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="privacy">Privacy</string>
+    <string name="exit">Exit</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="user_name">User Name</string>
+    <string name="hello">Hello</string>
 </resources>
