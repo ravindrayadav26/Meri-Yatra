@@ -17,16 +17,22 @@
             android:background="#ECB7B7"
             app:title="Meri Yatra"
             app:titleTextColor="#fff" />
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello"
-            android:layout_centerInParent="true"/>
-    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="0dp">
+
+            <Button
+                android:id="@+id/booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/hello" />
+        </RelativeLayout>
     </RelativeLayout>
         <com.google.android.material.navigation.NavigationView
             android:layout_width="wrap_content"
@@ -40,4 +46,5 @@
             app:itemIconTint="@drawable/nv_bg"
             app:itemTextAppearance="@style/TextViewStyle"
             app:itemHorizontalPadding="10dp"/>
+
 </androidx.drawerlayout.widget.DrawerLayout>

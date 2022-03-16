@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeriYatra">
         <activity
+            android:name=".bookings.hotel.Help"
+            android:exported="false" />
+        <activity
+            android:name=".bookings.hotel.MyBookings"
+            android:exported="false" />
+        <activity
+            android:name=".bookings.vehicle.demo"
+            android:exported="false" />
+        <activity
+            android:name=".bookings.vehicle.VehicleBooking"
+            android:exported="false" />
+        <activity
+            android:name=".bookings.hotel.HotelBooking"
+            android:exported="false" />
+        <activity
+            android:name=".bookings.Booking"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

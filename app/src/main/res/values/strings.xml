@@ -11,5 +11,5 @@
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
     <string name="user_name">User Name</string>
-    <string name="hello">Hello</string>
+    <string name="hello">Bookings</string>
 </resources>
