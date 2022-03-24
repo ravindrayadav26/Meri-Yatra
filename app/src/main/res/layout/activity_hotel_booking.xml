@@ -13,7 +13,7 @@
         android:layout_height="60dp"
         android:background="#E8CF0000"
         android:gravity="center"
-        android:text="Uttarakhand Tourists"
+        android:text="Search Hotels"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
@@ -22,19 +22,6 @@
         tools:ignore="MissingConstraints">
 
     </TextView>
-
-    <androidx.appcompat.widget.SearchView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:queryHint="Search Here"
-        app:iconifiedByDefault="false"
-        android:id="@+id/SearchView"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.118"></androidx.appcompat.widget.SearchView>
 
     <Button
         android:id="@+id/button1"
@@ -58,23 +45,5 @@
     </Button>
 
 
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="408dp"
-        android:layout_height="417dp"
-        android:paddingTop="100dp"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints">
-
-   <ListView
-       android:layout_width="match_parent"
-       android:layout_height="fill_parent"
-       android:id="@+id/myListView"
-
-       ></ListView>
-
-
-    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

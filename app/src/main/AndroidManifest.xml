@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dham.meriyatra">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION " />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MeriYatra">
+        <activity
+            android:name=".Homepage.kedarnath"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage.HomePage2"
+            android:exported="false" />
+        <activity
+            android:name=".bookings.hotel.HomePage"
+            android:exported="false" />
         <activity
             android:name=".bookings.hotel.Help"
             android:exported="false" />

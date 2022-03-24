@@ -16,7 +16,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.dham.meriyatra.bookings.Booking;
+import com.dham.meriyatra.Homepage.HomePage2;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -76,7 +76,7 @@ Button  book;
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), Booking.class);
+                Intent i = new Intent(getApplicationContext(), HomePage2.class);
                 startActivity(i);
             }
         });

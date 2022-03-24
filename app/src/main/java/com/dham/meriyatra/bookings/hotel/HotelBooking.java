@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 public class HotelBooking extends AppCompatActivity {
 
-    SearchView mySearchView;
     Button mybooking, needhelp;
 
 
